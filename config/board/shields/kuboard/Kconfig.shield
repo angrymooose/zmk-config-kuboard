@@ -1,0 +1,5 @@
+config SHIELD_KUBOARD_LEFT
+    def_bool $(shields_list_contains,kuboard_left)
+
+config SHIELD_KUBOARD_RIGHT
+    def_bool $(shields_list_contains,kuboard_right)
