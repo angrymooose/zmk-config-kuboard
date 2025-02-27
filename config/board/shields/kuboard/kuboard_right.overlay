@@ -1,5 +1,9 @@
 #include "kuboard.dtsi"
 
+&default_transform { 
+    col-offset = <6>;
+};
+
 kscan0: kscan {
     compatible = "zmk,kscan-gpio-matrix";
     wakeup-source;
